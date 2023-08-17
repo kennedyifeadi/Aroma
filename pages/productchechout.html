@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../public/images/Fevicon.png.webp " type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/aroma.css">
+    <link rel="stylesheet" href="../styles/productchecout.css">
+    <title>Aroma-Product Checkout</title>
+</head>
+<body>
+    <nav>
+        <div class="navleft">
+            <img src="../public/images/logo.png.webp" alt="">
+        </div>
+        <div class="navMiddle">
+            <ul>
+                <li class="navList"><a href="../index.html" class="navList_link">Home</a></li>
+                <li class="navList">
+                    <a href="#" class="navList_link">Shop</a>
+                    <div class="dropDown">
+                        <a href="./shopCartegory.html" class="dropDown_link">Shop Category</a>
+                        <a href="./single-shop.html" class="dropDown_link">product details</a>
+                        <a href="./productchechout.html" class="dropDown_link">product checkout</a>
+                        <a href="./confirmation.html" class="dropDown_link">confirmation</a>
+                        <a href="" class="dropDown_link">shopping cart</a>
+                    </div>
+                </li>
+                <li class="navList">
+                    <a href="#" class="navList_link">Blog</a>
+                    <div class="dropDown">
+                        <a href="" class="dropDown_link">Blog</a>
+                        <a href="" class="dropDown_link">Blog Details</a>
+
+                    </div>
+                </li>
+                <li class="navList">
+                    <a href="#" class="navList_link">Pages</a>
+                    <div class="dropDown">
+                        <a href="./login.html" class="dropDown_link">Login</a>
+                        <a href="./signup.html" class="dropDown_link">Register</a>
+                        <a href="./tracking.html" class="dropDown_link">Tracking</a>
+                    </div>
+                </li>
+                <li class="navList"><a href="./contact.html" class="navList_link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navRight">
+            <a href="" class="navSearch"><i class="bi bi-search"></i></a>
+            <a href="" class="navCart"><i class="bi bi-cart3"></i></a>
+            <a href="" class="navBuy">Buy Now</a>
+        </div>
+    </nav>
+    <main>
+        <div class="checkout-view">
+            <h1>Product Checkout</h1>
+            <span>Home - Checkout</span>
+        </div>
+        <div class="Returning-Customer">
+            <span>Returning Customer?<a href="./login.html">Click here to login</a></span>
+            <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+            <form action="">
+                <div>
+                    <input type="text" placeholder="Username or Email*">
+                    <input type="password" placeholder="password*" >
+                    
+                </div>
+                <div>
+                    <input type="submit" value="login">
+                    <input type="checkbox" id="pass">
+                    <label for="pass">Remember me</label>
+                </div>
+                <a href="#">Lost your password?</a>
+            </form>
+        </div>
+        <div class="coupon-details">
+            <span>Have a coupon?<a href="">Click here to enter your code</a></span>
+            <form action="">
+                <input type="text" placeholder="Enter coupon code">
+                <input type="submit" value="Apply Coupon">
+            </form>
+        </div>
+        <div class="billing-shipping">
+            <div class="billing_shipping-details">
+                <form action="" class="billing-details">
+                    <h1>Billing Details</h1>
+                    <div class="billing-details_formDiv"><input type="text"><input type="text"></div>
+                    <input type="text" placeholder="Company Name">
+                    <div class="billing-details_formDiv"><input type="text"><input type="text"></div>
+                    <select name="" id="">
+                        <option value="" class="option">Country</option>
+                        <option value="" class="option">Nigeria</option>
+                        <option value="" class="option">Ghana</option>
+                        <option value="" class="option">Canada</option>
+                        <option value="" class="option">Isarel</option>
+                        <option value="" class="option">U.S.A</option>
+                        <option value="" class="option">United Kingdom</option>
+                        <option value="" class="option">Russia</option>
+                        <option value="" class="option">Ukraine</option>
+                        <option value="" class="option">Ireland</option>
+                    </select>
+                    <input type="text"><input type="text"><input type="text">
+                    <select name="" id="">
+                        <option value="" class="option">District</option>
+                        <option value="" class="option">District</option>
+                        <option value="" class="option">District</option>
+                        <option value="" class="option">District</option>
+                    </select>
+                    <input type="text" placeholder="postcode/ZIP">
+                    <label for="create"><input type="checkbox" id="create">  Create an account?</label>
+                </form>
+                <form action="" class="Shipping-details">
+                    <h1>Shipping Details</h1>
+                    <label for=""><input type="checkbox" name="" id=""> Ship to a different address?</label>
+                    <textarea name="" id="" cols="50" rows="15"></textarea>
+                </form>
+            </div>
+            <div class="your-order">
+                <h1>Your Order</h1>
+                <a href="" class="order-histroy">
+                    <span>
+                        <small>Product</small>
+                        <small style="color: gray;">Fresh Blackberry</small>
+                        <small style="color: gray;">Fresh Tomatoes </small>
+                        <small style="color: gray;">Fresh Brocoli </small>
+                        <small><strong>SUBTOTAL</strong></small>
+                        <small><strong>SHIPPING</strong></small>
+                        <small><strong>TOTAL</strong></small>
+                    </span>
+                    <span>
+                        <small>X 02</small>
+                        <small>X 02</small>
+                        <small>X 02</small>
+                    </span>
+                    <span>
+                        <small>Total</small>
+                        <small style="color: gray;">$720.00</small>
+                        <small style="color: gray;">$720.00</small>
+                        <small style="color: gray;">$720.00</small>
+                        <small style="color: gray;"><strong>$2160.00</strong></small>
+                        <small style="color: gray;"><strong>Flat Rate: $50.00</strong></small>
+                        <small><strong>$2210.00</strong></small>
+                    </span>
+                </a>
+                <form action="">
+                    <div>
+                        <span>
+                            <input type="radio" name="paymentType" id="check">
+                            <label for="check">Check Payments</label>
+                        </span>
+                        <span class="payment-details">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</span>
+                    </div>
+                    <div>
+                        <span>
+                            <input type="radio" name="paymentType" id="paypal">
+                        <label for="paypal">Paypal</label>
+                        </span>
+                        <span class="payment-details">Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</span>
+                    </div>
+                    <span>
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I’ve read and accept the <a href="">terms & conditions*</a></label>
+                    </span>
+                    <input type="submit" value="Proceed to Paypal">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-details">
+                <div class="mission">
+                    <h1>Our Mission</h1>
+                    <span>So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us lan Gathering thing us land years living.</span>
+                    <span>So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved</span>
+                </div>
+                <div class="quick-links">
+                    <h1>Quick Links</h1>
+                    <div class="quick-links_div">
+                        <span>
+                            <a href="../index.html">Home</a>
+                            <a href="#">Shop</a>
+                            <a href="./pages/blog.html">Blog</a>
+                            <a href="#">Product</a>
+                            <a href="#">Brand</a>
+                            <a href="./pages/contact.html">Contact</a>
+                        </span>
+                        <span id="scroller-link">
+                            <a href="#trendingProduct">Trending Product</a>
+                            <a href="#bestSellers">Best Sellers</a>
+                            <a href="#latestNews">Latest News</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <h1>Gallery</h1>
+                    <div class="gallery-tab">
+                        <div class="gallery-tabimage">
+                            <img src="../public/images/r1.jpg.webp" alt="">
+                        </div>
+                        <div class="gallery-tabimage">
+                            <img src="../public/images/r2.jpg.webp" alt="">
+                        </div>
+                        <div class="gallery-tabimage">
+                            <img src="../public/images/r3.jpg.webp" alt="">
+                        </div>
+                        <div class="gallery-tabimage">
+                            <img src="../public/images/r5.jpg.webp" alt="">
+                        </div>
+                        <div class="gallery-tabimage">
+                            <img src="../public/images/r7.jpg.webp" alt="">
+                        </div>
+                        <div class="gallery-tabimage">
+                            <img src="../public/images/r8.jpg.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-us">
+                    <h1>Contact Us</h1>
+                    <div class="addresses">
+                        <div class="headOffice">
+                            <i class="bi bi-send-fill"></i>
+                            <div class="headoffice-details">
+                                <span> Head Office</span>
+                                <small>61, Lorem ipsum, Lagos Nigeria</small>
+                            </div>
+                        </div>
+                        <div class="phoneNumber">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div class="phoneNumber-details">
+                                <span>Phone Number</span>
+                                <small>243+ 8027650504</small>
+                                <small>243+ 8068110499</small>
+                            </div>
+                        </div>
+                        <div class="EmailAddress">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div class="EmailAddress-details">
+                                <span>Email</span>
+                                <small>kennedyifeadi@gmail.com</small>
+                                <small>ifeadikennedy@gmail.com</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>Copyright ©2023 All rights reserved | This template is made by <a href="#" style="color: #384aeb;">Kennedy</a></span>
+        </div>
+    </footer>
+</body>
+</html>
