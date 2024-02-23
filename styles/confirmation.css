@@ -140,3 +140,95 @@ footer{
 .footer{
     height: 600px;
 }
+@media screen and (max-width:430px){
+    .order-view{
+        height: 300px;
+    }
+    .order-view h1{
+        margin-top: 85px;
+        margin-left: 0px;
+        font-size: 36px;
+    }
+    .order-view span{
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .received-order{
+        margin-top: 90px;
+        width: 90%;
+    }
+    .received-order > .order-message{
+        font-size: 20px;
+    }
+    .order-tab{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .Order-Info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .Order-details{
+        margin-top:50px;
+        width:90%;
+        height:max-content;
+        padding: 10px;
+    }
+    .Order-details > h2{
+        padding-bottom: 20px;
+    }
+    .product-details{
+        margin-top:10px;
+        height: max-content;
+    }
+    .product-details::before{
+        top: 11%;
+    }
+    .Quantity{
+        height: 260px;
+    }
+    .product, .Quantity, .total{
+        display: flex;
+        justify-content: space-between;
+    }
+    .product > h4,.Quantity > h4,.total > h4{
+        margin-top: 10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .product > span,.Quantity > span,.total > span{
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: #636464;
+    }
+    .total span{
+        margin-top: 20px;
+    }
+    .Quantity > span{
+        color: black;
+    }
+    .product > span:nth-child(5), .product > span:nth-child(6){
+        color: black;
+    }
+    .total-cost{
+        width: 73%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .footer{
+        height: 750px;
+    }
+    .footer-details{
+        margin-top: 0px;
+    }
+}

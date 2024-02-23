@@ -340,3 +340,195 @@ footer{
 .footer{
     height: 600px;
 }
+@media screen and (max-width:430px){
+    .checkout-view{
+        height: 300px;
+    }
+    .checkout-view h1{
+        margin-top: 85px;
+        margin-left: -0px;
+        font-size: 36px;
+    }
+    .checkout-view span{
+        margin-left: -0px;
+        font-size: 15px;
+    }
+    .Returning-Customer{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .Returning-Customer > span{
+        padding: 10px;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    .Returning-Customer > span a{
+        margin-left: 5px;
+    }
+    .Returning-Customer > p{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .Returning-Customer > form{
+        margin-top: 20px;
+        width: 100%;
+        gap: 15px;
+    }
+    .Returning-Customer > form input[type="password"], form input[type="text"]{
+        width: 90%;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .Returning-Customer > form input[type="submit"]{
+        width: 30%;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .Returning-Customer > form label{
+        font-size: 15px;
+    }
+    .Returning-Customer > form a{
+        font-size: 18px;
+    }
+    .coupon-details{
+        width: 90%;
+        margin-top: 25px;
+    }
+    .coupon-details > span{
+        padding: 5px;
+        padding-left: 5px;
+        font-size: 18px;
+    }
+    .coupon-details > span a{
+        margin-left: 5px;
+    }
+    .coupon-details > form{
+        margin-top: 20px;
+        width: 100%;
+        align-self: center;
+    }
+    .coupon-details > form input[type='text']{
+        width: 80%;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    .coupon-details > form input[type='submit']{
+        width: 40%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    .billing-shipping{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .billing_shipping-details{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .billing-details > h1, .Shipping-details > h1{
+        font-size: 24px;
+    }
+    .your-order{
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+    }
+    .your-order > h1{
+        font-size: 24px;
+        padding-bottom:20px;
+        font-family: 'Oswald', sans-serif;
+        border-bottom:1px solid rgba(128, 128, 128, 0.445);
+    }
+    .order-histroy{
+        display: flex;
+        width: 100%;
+        height: max-content;
+        text-decoration: none;
+        color: black;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .order-histroy span{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin-bottom: 0px;
+    
+     
+    }
+    .order-histroy span:nth-child(2){
+        margin-top: 50px;
+        align-items: center;
+    }
+    .order-histroy span:nth-child(3){
+        align-items: flex-end;
+    }
+    .order-histroy span small{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .your-order form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .your-order form div{
+        display: flex;
+        flex-direction: column;
+    }
+    .your-order form div > span{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .your-order form div > span input{
+        width: 20px;
+        height:20px;
+        font-size: 10px;
+    } 
+    .your-order form div > span label{
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .payment-details{
+        width: 90%;
+        padding: 30px;
+        background-color: white;
+        font-size: 18px;
+    }
+    .your-order input[type='submit']{
+        width: 60%;
+        margin-top: 20px;
+        align-self: center;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 18px;
+        color: white;
+        background-color: #384aeb;
+        border: 1px solid #384aeb;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+    .your-order input[type='submit']:hover{
+        background-color: transparent;
+        color: black;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .footer{
+        height: 750px;
+    }
+    .footer-details{
+        margin-top: 0px;
+    }
+}

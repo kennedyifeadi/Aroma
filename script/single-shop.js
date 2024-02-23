@@ -69,3 +69,15 @@ function displayReviews(){
     comDetails.style.display = 'none'
 }
 
+const moblieViewIcon = document.querySelector('.moblieViewIcon');
+const moblieViewMenuIcon = document.querySelector('.moblieViewMenuIcon');
+const moblieViewMenuIconClose = document.querySelector('.moblieViewMenuIconClose');
+const navMiddle = document.querySelector('.navMiddle')
+const navRight = document.querySelector('.navRight')
+moblieViewIcon.addEventListener('click', (e)=>{
+    moblieViewMenuIcon.classList.toggle('displayOff');
+    // console.log(moblieViewMenuIcon);
+    moblieViewMenuIconClose.classList.toggle('displayOn');
+    navMiddle.classList.toggle('navMiddleOpen')
+    navRight.classList.toggle('navRightOpen')
+})

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 body{
     height: max-content;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;  
@@ -107,4 +108,73 @@ footer{
 }
 .footer{
     height: 600px;
+}
+@media screen and (max-width:430px){
+    .contact-tab{
+        height: 300px;
+    }
+    .contact-tab h1{
+        margin-top: 100px;
+        margin-left: 0px;
+        font-size: 36px;
+    }
+    .contact-tab span{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    #map{
+        width: 100dvw;
+    }
+    .contact-info{
+        width:95%;
+        margin-top:50px;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    .contact-info_details span{
+        font-size: 15px;
+    }
+    .contact-info_details small{
+        font-size: 12px;
+    }
+    .contact_address,
+    .contact_phone,
+    .contact_emailAddress{
+        gap: 10px;
+    }
+    .contact_address i,
+    .contact_phone i,
+    .contact_emailAddress i{
+        font-size: 36px;
+        font-weight: 600;
+        color: #384aeb;
+        margin-top: 10px            ;
+    }
+    .contact-info form{
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    .form-one input{
+        width: 100%;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    .form-two button{
+        width: 45%;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 2px solid #ffff;
+        outline: 2px solid #384aeb;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .footer{
+        height: 750px;
+    }
+    .footer-details{
+        margin-top: 0px;
+    }
 }

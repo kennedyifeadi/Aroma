@@ -11,9 +11,22 @@
 </head>
 <body>
     <nav>
-        <div class="navleft">
+        <div class="navleft"> 
             <img src="../public/images/logo.png.webp" alt="">
+            <div class="moblieViewIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class=" moblieViewMenuIcon w-6 h-6 displayOn ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'
+                    stroke-width='1.5' stroke='currentColor' class='moblieViewMenuIconClose w-6 h-6  '>
+                    <path stroke-linecap='round' stroke-linejoin='round' d='M6 18 18 6M6 6l12 12' />
+                </svg>
+            </div>
         </div>
+        <!-- 
+         -->
+                    
         <div class="navMiddle">
             <ul>
                 <li class="navList"><a href="../index.html" class="navList_link">Home</a></li>
@@ -37,7 +50,7 @@
                 </li>
                 <li class="navList">
                     <a href="#" class="navList_link">Pages</a>
-                    <div class="dropDown">
+                    <div class="dropDown pages_drpodown">
                         <a href="./login.html" class="dropDown_link">Login</a>
                         <a href="./signup.html" class="dropDown_link">Register</a>
                         <a href="./tracking.html" class="dropDown_link">Tracking</a>
@@ -51,6 +64,7 @@
             <a href="" class="navCart"><i class="bi bi-cart3"></i></a>
             <a href="" class="navBuy">Buy Now</a>
         </div>
+
     </nav>
     <main>
         <div class="order-view">
@@ -230,5 +244,19 @@
             <span>Copyright ©2023 All rights reserved | This template is made by <a href="#" style="color: #384aeb;">Kennedy</a></span>
         </div>
     </footer>
+    <script>
+        const moblieViewIcon = document.querySelector('.moblieViewIcon');
+        const moblieViewMenuIcon = document.querySelector('.moblieViewMenuIcon');
+        const moblieViewMenuIconClose = document.querySelector('.moblieViewMenuIconClose');
+        const navMiddle = document.querySelector('.navMiddle')
+        const navRight = document.querySelector('.navRight')
+        moblieViewIcon.addEventListener('click', (e) => {
+            moblieViewMenuIcon.classList.toggle('displayOff');
+            // console.log(moblieViewMenuIcon);
+            moblieViewMenuIconClose.classList.toggle('displayOn');
+            navMiddle.classList.toggle('navMiddleOpen')
+            navRight.classList.toggle('navRightOpen')
+        })
+    </script>
 </body>
 </html>
