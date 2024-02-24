@@ -558,14 +558,12 @@ footer{
         width: 90%;
         flex-direction: column;
         margin-top:75px;
-        border: 1px solid red;
     }
     .product_img{
         width: 100%;
     }
     .product_details{
         width: 100%;
-        border: 1px solid red;
         padding: 10px;
     }
     .product_details h1{
