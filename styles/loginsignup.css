@@ -193,7 +193,7 @@ footer{
 .footer{
     height: 600px;
 }
-@media screen and (max-width:430px){
+@media screen and (max-width:840px){
     .Login-view{
         height: 250px;
     }

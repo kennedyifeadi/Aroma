@@ -340,7 +340,7 @@ footer{
 .footer{
     height: 600px;
 }
-@media screen and (max-width:430px){
+@media screen and (max-width:840px){
     .checkout-view{
         height: 300px;
     }
